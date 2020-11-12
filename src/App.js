@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { BrowserRouter } from "react-router-dom";
+import NavBar from './components/Navbar';
+import Router from './components/Router';
 import './App.css';
+import img from '/Users/tappy/Byte/Pokepedia/pokepedia/src/components/Pokepedia_official.png';
 
 function App() {
+  const [pokeList, setPokeList] = useState([]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <header className="App-header">
+        <img src={img} />
+        <NavBar />
+        <Router pokeList={pokeList} setPokeList={setPokeList} />
+        </header>
+      </BrowserRouter>
     </div>
   );
 }
