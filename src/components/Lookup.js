@@ -39,7 +39,7 @@ export default function Lookup({ addFunc }) {
       <br></br>
       <input value={searchTerm || ""} onChange={e => setSearchTerm(e.target.value)} 
       placeholder="Enter 'pikachu' or 25"/>
-      <button onClick={getData}>Search</button>
+      <button style={{color:'white', backgroundColor:'red', fontWeight: 'bold'}} onClick={getData}>Search</button>
       { data.image && (
         <div>
             <img src={data.image} className='img' alt="Image" />
@@ -77,7 +77,7 @@ export default function Lookup({ addFunc }) {
               </tr>
             </table>
           </div>
-          <button onClick={e => addFunc(data)}>Save</button>
+          <button style={{color:'white', backgroundColor:'red', fontWeight: 'bold'}} onClick={e => addFunc(data)}>Save</button>
           <br></br>
           <br></br>
         </div>
