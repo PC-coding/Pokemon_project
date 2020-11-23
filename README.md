@@ -13,6 +13,8 @@
 </ul>
 
 # Demo
+<a href="https://PC-coding.github.io/Pokepedia"> Check it out yourself by clicking here!</a>  
+<br>
 ![Pokepedia-demo](https://media.giphy.com/media/UgI9QP95lRFOQom4UM/giphy.gif) 
 
 # User Experience Guide 
