@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import NavBar from './components/Navbar';
 import Router from './components/Router';
 import './App.css';
-import img from '/Users/tappy/Byte/Pokepedia/pokepedia/src/components/Pokepedia_official.png';
+import img from './components/pokepedia.png';
 
 function App() {
   const [pokeList, setPokeList] = useState([]);
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <header className="App-header">
-        <img src={img} />
+        <img className='img' src={img} />
         <NavBar />
         <Router pokeList={pokeList} setPokeList={setPokeList} />
         </header>
