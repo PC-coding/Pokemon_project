@@ -26,8 +26,13 @@
 }
 
 .img {
-  height: 451px;
-  width: 502px;
+  height: 200px;
+  width: 200px;
+}
+
+.logo1{
+  height: 402px;
+  width: 452px;
 }
 .App-link {
   color: #61dafb;

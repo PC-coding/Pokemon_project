@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <header className="App-header">
-        <img className='img' src={img} />
+        <img className='logo1' src={img} />
         <NavBar />
         <Router pokeList={pokeList} setPokeList={setPokeList} />
         </header>
