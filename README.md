@@ -15,7 +15,7 @@
 # Demo
 <a href="https://PC-coding.github.io/Pokepedia"> Check it out yourself by clicking here!</a>  
 <br>
-![Pokepedia-demo](https://media.giphy.com/media/Fr35Hx4L0PzUuVL0uW/giphy.gif) 
+![Pokepedia-demo](https://media.giphy.com/media/dVJJQ3NR3yk2EXPltR/giphy.gif) 
 
 # User Experience Guide 
 <p> Users can either use this application on their own accord and follow  
